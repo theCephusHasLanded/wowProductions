@@ -1,9 +1,9 @@
 // #Start your Engines
 
 function fn(...c) {
-    if (!c.every((a) => Number.isNumber(a)))
-      throw "All arguments must be numbers.";
-    return c.reduce((a, b) => a + b);
+    if (!c.forEach((a) => Number.isNumber(a)))
+      throw "All numbers must be arguments.";
+    return c.reduce((b, a) => b + a);
   }
   
   fn(1, 2, 3); //> 6
