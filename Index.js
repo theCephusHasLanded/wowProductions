@@ -1,10 +1,10 @@
 // #Start your Engines
 
-function fn(...c) {
-    if (!c.every((a) => Number.isNumber(a)))
+function fun(...cats) {
+    if (!cats.every((ant) => Number.isNumber(ant)))
       throw "All arguments must be numbers.";
-    return c.reduce((a, b) => a + b);
+    return cats.reduce((ant, bat) => ant + bat);
   }
   
-  fn(1, 2, 3); //> 6
-  fn(10, "B", 20); //> error All arguments must be numbers.
+  fun(1, 2, 3); //> 6
+  fun(10, "B", 20); //> error All arguments must be numbers.
