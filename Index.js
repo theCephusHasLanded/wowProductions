@@ -6,5 +6,8 @@ function fn(...c) {
     return c.reduce((b, a) => b + a);
   }
   
-  fun(1, 2, 3); //> 6
-  fun(10, "B", 20); //> error All arguments must be numbers.
+  fn(1, 2, 3); //> 6
+  fn(10, "B", 20); //> error All arguments must be numbers.
+
+  //We are working together its unbelievable
+
